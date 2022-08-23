@@ -1,0 +1,24 @@
+<div class="row">
+    <div class="col-md-10">
+        <section class="seccion">
+            <div class="estudios">
+                <h1>Estudios <i class="fa-solid fa-circle-plus"></i></h1>
+            </div>
+            <ul class="item-list">
+                <li *ngFor="let education of educationList">
+                    <div class="logo-image-container">
+                        <img class="logo-image" [src]="education.img"/>
+                    </div>
+                    <div class="list-info">
+                        <div>
+                            <h3>{{education.school}} <a href="#" class="btn-right"><i class="fa fa-pencil" aria-hidden="true"></i></a></h3>
+                            <h4>{{education.title}}</h4>
+                            <h4>{{education.start}}-{{education.end}}</h4>
+                            <h4>{{education.career}}</h4>
+                        </div>
+                    </div>            
+                </li>        
+            </ul>
+        </section>
+    </div>
+</div>

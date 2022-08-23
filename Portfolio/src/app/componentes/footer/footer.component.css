@@ -1,0 +1,21 @@
+img{
+    width: 50px;
+    padding: 5px;
+}
+footer {
+    background-color: black;
+}
+footer h3{
+    color:white;
+}
+footer p{
+    color:rgba(255, 255, 255, 0.671);
+}
+footer i{
+    font-size: 25px;
+    margin-left:8px;
+    color: white;
+}
+#info{
+    text-align: center;
+}

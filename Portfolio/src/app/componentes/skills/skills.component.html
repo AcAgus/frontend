@@ -1,0 +1,28 @@
+<div class="row">
+  <div class="col-md-11">
+    <section class="seccion">
+      <div class="skills">
+        <h1>Skills <i class="fa-solid fa-circle-plus"></i></h1>
+      </div>
+    </section>
+  </div >
+  <div class="text-center col-md-3"*ngFor="let skills of skillsList">
+    <h6>{{ skills.name}}</h6>
+    <circle-progress
+            [percent]="skills.progress"
+            [radius]="60"
+            [title]="skills.name"
+            [showImage]="true"
+            [imageHeight]="50"
+            [imageWidth]="50"
+            [imageSrc]="skills.img"
+            [showSubtitle]="false"
+            [showUnits]="false"
+            [outerStrokeWidth]="7"
+            [innerStrokeWidth]="5"
+            [outerStrokeColor]="'#1F1F1F'"
+            [innerStrokeColor]="'#626262'"
+            [animation]="false"
+          ></circle-progress>
+  </div>
+</div>

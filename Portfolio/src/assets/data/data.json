@@ -1,0 +1,99 @@
+{
+    "name":"Agustin Acuña",
+    "image":"http://",
+    "position":"Programador",
+    "sobremi":"Mi nombre es Agustin, tnego 26, soy de la ciudad de Tandil, estudio ingeniería, y estoy haciendo mi portfolio",
+    "user":"AgustinAcuna",
+    "pass":"1234",
+    "company":{
+        "name": "Argentina Programa",
+        "img": "http://",
+        "url": "#"
+    },
+    "school":{
+        "name": "UNICEN",
+        "img": "http://",
+        "url": "#"
+    },
+    "ubication":"Tandil, Buenos Aires",
+    "about": "Programador, estudiante",
+    "proyecto": [{
+            "name":"Programador",
+            "company":"Argentina Programa",
+            "img": "http://",            
+            "start": "Nov 2021",
+            "end": "Sep 2022"
+            },
+            {
+            "name":"Ejemplo 2",
+            "company":"Lugar 2",
+            "img": "http://",            
+            "start": "Fecha inicio",
+            "end": "Fecha fin"
+            }
+    ],
+    "education":[{
+        "school":"Escuela Tecnica Nro 2",
+        "title":"Tecnico en Informatica",
+        "img": "Portfolio/src/assets/unnamed.png",
+        "career":"Informatica",
+        "start": "----",
+        "end": "----"
+        },
+        {
+        "school":"UNICEN",    
+        "img": "http://",
+        "career":"Ingenieria en Sistemas",
+        "start": "----",
+        "end": "----"    
+        },
+        {
+        "school":"Argentina Programa",    
+        "img": "http://",
+        "career":"FullStack Developer",
+        "start": "----",
+        "end": "----"    
+        }
+    ],
+    "skills":[{
+        "name":"html",
+        "progress":"90",
+        "img":"../assets/html.png"
+    },
+    {
+        "name":"css",
+        "progress":"50",
+        "img":"../assets/css.png"
+    },
+    {
+        "name":"JS",
+        "progress":"50",
+        "img":"../assets/js.png"
+    },
+    {
+        "name":"Angular Js",
+        "progress":"40",
+        "img":"../assets/angular.png"
+    },
+    {
+        "name":"Base de Datos",
+        "progress":"75",
+        "img":"../assets/base.png"
+    },
+    {
+        "name":"Java",
+        "progress":"75",
+        "img":"../assets/java.png"
+    },
+    {
+        "name":"Spring boot",
+        "progress":"20",
+        "img":"../assets/spring.png"
+    },
+    {
+        "name":"Ingles",
+        "progress":"75",
+        "img":"Portfolio/src/assets/ingles.png"
+    }
+]
+}

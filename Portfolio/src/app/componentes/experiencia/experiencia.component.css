@@ -1,0 +1,16 @@
+.seccion{
+    margin-left: 20%;
+    margin-top:2%;
+}.experiencia{
+    margin-left:-5%;
+}
+.seccion .item-list{
+    align-items: center;
+}
+.seccion .list-info{
+    margin-left: 150px;
+    box-shadow: 10px 10px 20px rgb(12, 12, 12);
+}
+.seccion li{
+    font-size:0px;
+}
